@@ -4,5 +4,6 @@ author:  ""
 output:
   html_document
 ---
+[Lecture 1: Part 1](https://domlockett.github.io/website/PDS/Welcome_1.html)
 
 ----
