@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Assignment 0</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dominique Lockett" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Assignment 0
+### Dominique Lockett
+### 6/14/2020
+
+---
+
+
+
+# Assignment 0
+
+- This assignment will be slightly different than most others.
+
+    - For the majority of assignments you will be asked to edit the 'AssignmentX-X.ipynb' document directly and then 'push' this document to the GitHub repository.
+    
+        - If you do not know what 'pushing' a document is, that's okay. For now consider it a way to upload your progress on an assignment.
+    
+    - For this first assignment you will follow along with the instructions throughout this document and once you have completed all the tasks, I will ask you to create a new file which you will then push to your repository.
+    
+
+- The purpose of this task is to get you oriented with the operation and work flow of this class. 
+
+    - We will go through steps that will show you how to accomplish each day's activities and quizzes.
+
+---
+
+## Step 1: Download your repository
+
+- The initial step you need to take is to log on to the Canvas course page. There you will see a module which gives you the link to each day's course content. Open the link to `Day 1` and connect your GitHub account.
+&lt;img src="images/Step1.gif" width="600"&gt;
+
+---
+## Step 1: Download your repository
+
+Next you will connect the repository to your own account. And accept the assignment. 
+
+&lt;center&gt;
+&lt;img src="images/Step2.gif" width="600"&gt;
+&lt;/center&gt;
+
+---
+## Step 1: Download your repository
+- Now you will go to your new repository and hit `clone or download` and then `Open GitHubDesktop` to put this repository into the directory of your personal computer.
+
+&lt;center&gt;
+&lt;img src="images/Step3.gif" width="600"&gt;
+&lt;/center&gt;
+
+---
+## Step 1: Download your repository
+
+
+- When you download the repository make sure you save it to a useful location you can easily access.
+
+&lt;center&gt;
+&lt;img src="images/directory.png" width="600"&gt;
+&lt;/center&gt;
+
+
+---
+
+## Step 2: Get running in Jupyter Lab
+
+- This part of the activity assumes that you installed Python and Jupyter Lab correctly. If you have, it should be very simple.
+
+- Open your Command Prompt and type in `jupyter lab`.
+
+&lt;center&gt;
+&lt;img src="images/jupyterlab1.png" width="600"&gt;
+&lt;/center&gt;
+
+---
+
+## Step 2: Get running in Jupyter Lab
+
+- JupyterLab will open on your default browser and from there you will navigate to the directory in which your repository is saved.
+
+&lt;center&gt;
+&lt;img src="images/Step4.gif" width="500"&gt;
+&lt;/center&gt;
+
+- *Important note*: If you close the Command Prompt the your changes in JupyterLab will no longer be saved to your computer. 
+
+---
+
+# Congratulations!
+
+- If this is your first time using GitHub and JupyterLab it was a lot to intiate yourself with, but now you've done it.
+
+- Now I want to show you how to properly use JupyterLab and Github to upload your assignments.
+
+- Now that you have JupyterLab running on a web page go ahead and double click on `Assignment1-1.ipynb` and you can follow along with the slides.
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
