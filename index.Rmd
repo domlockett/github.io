@@ -10,4 +10,7 @@ output:
 
 [Lecture 1: Part 3](https://domlockett.github.io/website/Activity0_3.html)
 
+[Lecture 1: Part 4](https://domlockett.github.io/website/Activity1-1_4.html)
+
+[Lecture 1: Part 5](https://domlockett.github.io/website/Activity1-3_5.html)
 ----
